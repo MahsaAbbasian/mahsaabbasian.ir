@@ -12,6 +12,7 @@
   background: #1a1a1a;
   padding: 1rem 8rem;
   z-index: 1000;
+  margin-right: -60rem;
 }
 
 .navbar .navbar-brand {
@@ -28,6 +29,10 @@
 
 #navbarSupportedContent > ul > li:nth-child(n) > a:hover {
   color: #e6a225;
+}
+.navbar-brand{
+  margin-right: 0rem;
+  margin-left: -5rem;
 }
 
 .navbar .collapse .btn {
