@@ -1,169 +1,164 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900')*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 .navbar {
-	background: #1a1a1a;
-	;
-	padding: 1rem 8rem;
-	z-index: 1000;
+  background: #1a1a1a;
+  padding: 1rem 8rem;
+  z-index: 1000;
 }
 
 .navbar .navbar-brand {
-	font-size: 1.4rem;
-	font-weight: 700;
-	color: #e6a225;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #e6a225;
 }
 
 #navbarSupportedContent > ul > li:nth-child(n) > a {
-	color: #e6a225;
-	font-size: 1.1rem;
-	padding: 0 1rem;
+  color: #e6a225;
+  font-size: 1.1rem;
+  padding: 0 1rem;
 }
 
 #navbarSupportedContent > ul > li:nth-child(n) > a:hover {
-	color: #e6a225;
+  color: #e6a225;
 }
 
 .navbar .collapse .btn {
-	background: #e6a225;
-	color: #e6a225;
-	font-weight: 600;
-	padding: 0.4rem 1.4rem;
-	border-radius: 30px;
-	border-color: #e6a225;
-
+  background: #e6a225;
+  color: #e6a225;
+  font-weight: 600;
+  padding: 0.4rem 1.4rem;
+  border-radius: 30px;
+  border-color: #e6a225;
 }
 
 .btn-success {
-	color: #fff;
-	background-color: #e6a225;
-	border-color: #e6a225;
+  color: #fff;
+  background-color: #e6a225;
+  border-color: #e6a225;
 }
 
 .mid {
-	width: 100%;
-	height: 100vh;
-	overflow: hidden;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-content: center;
-	text-align: center;
-
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
 }
 
 .mid video {
-	width: 100%;
-	height: 100%;
-	pointer-events: none;
-	object-fit: cover;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .hero {
-	position: relative;
+  position: relative;
 }
 
 .mid .hero p {
-	width: 55%;
-	font-size: 1.1rem;
-	letter-spacing: 0.2px;
-	padding-bottom: 1rem;
-
+  width: 55%;
+  font-size: 1.1rem;
+  letter-spacing: 0.2px;
+  padding-bottom: 1rem;
 }
 
 .mid .hero a {
-	background: #e6a225;
-	font-size: 600;
-	padding: 0.6rem 1.4rem;
-	border-radius: 30px;
-	text-decoration: none;
-	color: #000000;
+  background: #e6a225;
+  font-size: 600;
+  padding: 0.6rem 1.4rem;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #000000;
 }
 
 .mid .hero a:hover {
-	background: #f0942b;
+  background: #f0942b;
 }
 
 .profile {
-	background: #fff;
-	padding-top: 7rem !important;
+  background: #fff;
+  padding-top: 7rem !important;
 }
 
 .profile .text {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: flex-start;
-	margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: auto;
 }
 
 .profile .text h6 {
-	color: #e6a225;
-	font-weight: 700;
-	font-size: 1rem;
-	letter-spacing: 2px;
+  color: #e6a225;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 2px;
 }
 
 .profile .text h2 {
-	color: #000000;
-	font-weight: 600;
-	font-size: 2.7rem;
+  color: #000000;
+  font-weight: 600;
+  font-size: 2.7rem;
 }
 
 .profile .text p {
-	color: #000000;
-	font-weight: 400;
-	font-size: 1.1rem;
-	letter-spacing: 0.5px;
+  color: #000000;
+  font-weight: 400;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
 }
 
 .profile .text a {
-	background: #e6a225;
-	font-weight: 600;
-	padding: 0.6rem 1.4rem;
-	margin-top: 1.4rem;
-	border-radius: 30px;
-	text-decoration: none;
-	color: #000000;
+  background: #e6a225;
+  font-weight: 600;
+  padding: 0.6rem 1.4rem;
+  margin-top: 1.4rem;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #000000;
 }
 
 .profile .text a:hover {
-	background: #f0942b;
+  background: #f0942b;
 }
 .contact {
-	background: #fff;
-	padding-top: 20rem !important;
+  background: #fff;
+  padding-top: 20rem !important;
 }
 
 .contact .one {
-	background: #e6a225;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-	padding: 2rem 1.2rem;
-	border-radius: 7px;
+  background: #e6a225;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem 1.2rem;
+  border-radius: 7px;
 }
 
 .contact .one img {
-	border-radius: 40px;
+  border-radius: 40px;
 }
 
 .contact .one a {
-
-	color: #000000;
+  color: #000000;
 }
 .contact .one:hover {
   background-color: #f0942b;
@@ -174,252 +169,342 @@
 /************************************************************************************************/
 
 .basicLevel {
-
-	background: #fff;
-	padding-top: 10rem !important;
+  background: #fff;
+  padding-top: 10rem !important;
 }
 
 .basicLevel .row .text {
-
-	max-width: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	text-align: left;
-	padding: 2rem 1.2rem;
-	margin-left: 0;
-
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  padding: 2rem 1.2rem;
+  margin-left: 0;
 }
 
 .basicLevel .text h6 {
-	color: #e6a225;
-	font-weight: 500;
-	font-size: 1rem;
-	letter-spacing: 2px;
+  color: #e6a225;
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: 2px;
 }
 
 .basicLevel .text h2 {
-	color: #000000;
-	font-weight: 500;
-	font-size: 2rem;
-	margin-bottom: 2rem;
+  color: #000000;
+  font-weight: 500;
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
 .basicLevel .text .exe {
-	background: #e6a225;
-	padding: 1rem 1.4rem;
-	margin-bottom: 1rem;
-	border-radius: 30px;
-	text-decoration: none;
-	color: #000000;
-
+  background: #e6a225;
+  padding: 1rem 1.4rem;
+  margin-bottom: 1rem;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #000000;
 }
-.basicLevel .text .exe:hover{
-	background-color: #f0942b;
+.basicLevel .text .exe:hover {
+  background-color: #f0942b;
 }
 
 .basicLevel .text p {
-	color: #000000;
-	font-weight: 400;
-	font-size: 1.1rem;
-	letter-spacing: 0.5px;
-	text-align: justify;
+  color: #000000;
+  font-weight: 400;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+  text-align: justify;
 }
 
 .basicLevel .row img {
-	display: block;
-	margin-left: auto;
-	width: 100%;
-
+  display: block;
+  margin-left: auto;
+  width: 100%;
 }
 
 .miniProject {
-	background: #ffffff#fff;
-	padding-top: 0.1rem !important;
-
-
+  background: #ffffff#fff;
+  padding-top: 0.1rem !important;
 }
 
 .miniProject .row {
-	max-width: 100%;
+  max-width: 100%;
 }
 
 .miniProject .img {
-	padding-bottom: 25rem;
+  padding-bottom: 25rem;
 }
 
 .miniProject .row .col {
-	background: #e6a225;
-	max-width: 100%;
-	display: block;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-	padding: 1rem 0.1rem;
-	margin: 0.5rem 0.5rem;
-	border-radius: 15px;
-
+  background: #e6a225;
+  max-width: 100%;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem 0.1rem;
+  margin: 0.5rem 0.5rem;
+  border-radius: 15px;
 }
-.miniProject .row .col:hover{
-	background-color: #f0942b;
+.miniProject .row .col:hover {
+  background-color: #f0942b;
 }
 
 .miniProject .row .col .panel .exe {
-	color: #F7F5F4;
-
+  color: #f7f5f4;
 }
 
 .IntermediateLevel {
-	background: #fff;
-	padding-top: 10rem !important;
-	margin-bottom: 0rem;
+  background: #fff;
+  padding-top: 10rem !important;
+  margin-bottom: 0rem;
 }
 
 .IntermediateLevel .text h6 {
-	color: #e6a225;
-	font-weight: 500;
-	font-size: 1rem;
-	letter-spacing: 2px;
+  color: #e6a225;
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: 2px;
 }
 
 .IntermediateLevel .text h2 {
-	color: #000000;
-	font-weight: 500;
-	font-size: 2rem;
-	margin-bottom: 2rem;
+  color: #000000;
+  font-weight: 500;
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
 .IntermediateLevel .text p {
-	color: #000000;
-	font-weight: 400;
-	font-size: 1.1rem;
-	letter-spacing: 0.5px;
-	text-align: justify;
+  color: #000000;
+  font-weight: 400;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+  text-align: justify;
 }
 
 /************************************************************************************************/
 /******************************* styling the About page ******************************************/
 /************************************************************************************************/
-.aboutPage {
-	background: #fff;
-	padding-top: 10rem !important;
-	margin-bottom: 0rem;
+
+.aboutPage2 {
+  background: #fff;
+  padding-top: 10rem;
+  margin-bottom: 5rem;
+  padding-left: 15rem !important;
+  padding-right: 15rem !important;
+}
+.aboutPage2 .top-name {
+  background: #fff;
+  margin-bottom: 3rem;
+  margin-left: 1rem;
+  margin-right: 0rem;
+  padding-left: 3rem;
+  padding-bottom: 3rem;
+  border-top-left-radius: 15rem;
+  border-bottom-right-radius: 15rem;
 }
 
-.aboutPage .text {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: flex-start;
-	margin: auto;
+.aboutPage .row {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0%;
+  padding-left: 2rem;
+  margin-right: 7rem;
 }
 
-.aboutPage .text h6 {
-	color: #e6a225;
-	font-weight: 700;
-	font-size: 1rem;
-	letter-spacing: 2px;
+.aboutPage .row .jobDescription {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 0rem !important;
+  margin-left: 0%;
+  padding-bottom: 2rem; /* Add some padding for spacing */
 }
 
-.aboutPage .text h2 {
-	color: #000000;
-	font-weight: 600;
-	font-size: 2.7rem;
+.aboutPage .row h6 {
+  color: #e6a225;
+  font-weight: 700;
+  font-size: 1rem;
 }
 
-.aboutPage .text p {
-	color: #000000;
-	font-weight: 400;
-	font-size: 1.1rem;
-	letter-spacing: 0.5px;
-	text-align: justify;
+.aboutPage .row h2 {
+  color: #000000;
+  font-weight: 600;
+  font-size: 2.7rem;
 }
 
-.aboutPage .row img {
-	width: 50%;
-	margin-left: 8rem;
+.aboutPage .row h5 {
+  color: #000000;
+  font-weight: 600;
+  font-size: 2.7rem;
+  margin-bottom: 0rem;
+  padding-left: 0rem;
 }
 
-.aboutSkills {
-	background: #fff;
-	padding-top: 10rem !important;
-	margin-bottom: 0rem;
+.aboutPage .row .year {
+  padding-top: 0rem !important;
+  margin-bottom: 0rem;
+  color: #000000;
+  font-weight: 600;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.about .row p {
+  line-height: 15rem;
+}
+
+.aboutPage .row p {
+  color: #000000;
+  font-weight: 400;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+  text-align: justify;
+}
+
+/* image */
+.aboutPage2 .top-name .imgbox {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0rem;
+  margin-right: 0rem;
+  margin-bottom: 0rem;
+  padding: 0rem;
+}
+.aboutPage .imgbox .img-fluid {
+  display: flex;
+  flex-direction: row;
+  width: 15rem;
+  margin-left: 65%;
+  border-top-left-radius: 9rem;
+  border-bottom-right-radius: 9rem;
+  padding-top: 3rem;
+  margin-bottom: -5rem;
+}
+.aboutSkills .aboutPage {
+  padding-top: 35rem !important;
+  margin-bottom: 5rem;
+  padding-bottom: 0rem;
+  padding-left: 17rem !important;
+  padding-right: 15rem !important;
 }
 
 .aboutSkills .skills ul {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: flex-start;
-	margin: auto;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: auto;
 }
 
 .aboutSkills .skills h6 {
-	color: #e6a225;
-	font-weight: 700;
-	font-size: 1rem;
-	letter-spacing: 2px;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: flex-start;
-	margin: auto;
+  color: #e6a225;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
 }
 
 .aboutSkills .skills li {
-	color: #000000;
-	font-weight: 400;
-	font-size: 1.1rem;
-	letter-spacing: 0.5px;
-	text-align: justify;
-	margin-left: 1.2rem;
+  color: #000000;
+  font-weight: 400;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+  text-align: justify;
+  margin-left: 1.2rem;
+}
 
-}
 .aboutSkills .skills a {
-	color: #000000;
+  color: #000000;
 }
+
+/* Responsive Styling */
+@media screen and (max-width: 768px) {
+  .aboutPage {
+    padding-top: 5rem;
+  }
+
+  .aboutPage .row {
+    align-items: center;
+  }
+
+  .aboutPage .imgbox img {
+    width: 50%;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .aboutPage {
+    padding-top: 3rem;
+  }
+
+  .aboutPage .row h2,
+  .aboutPage .row h5 {
+    font-size: 2rem;
+  }
+
+  .aboutPage .row .year {
+    font-size: 0.9rem;
+  }
+
+  .aboutPage .row p {
+    font-size: 1rem;
+  }
+
+  .aboutSkills .skills h6 {
+    font-size: 0.9rem;
+  }
+
+  .aboutSkills .skills li {
+    font-size: 1rem;
+    margin-left: 0rem;
+  }
+}
+
 /************************************************************************************************/
 /******************************* styling the exercisses page ******************************************/
 /************************************************************************************************/
 .basicExercises {
-	background: #fff;
-	padding-top: 10rem !important;
-	margin-bottom: 0rem;
+  background: #fff;
+  padding-top: 10rem !important;
+  margin-bottom: 0rem;
 }
 
 .basicExercises h2 {
-	color: #e6a225;
-	font-weight: 900;
-	font-size: 1.5rem;
-	letter-spacing: 0.9px;
-
+  color: #e6a225;
+  font-weight: 900;
+  font-size: 1.5rem;
+  letter-spacing: 0.9px;
 }
 .basicExercises h1 {
-	color: #000000;
-	font-weight: 900;
-	font-size: 3.8rem;
-	letter-spacing: 1px;
-
+  color: #000000;
+  font-weight: 900;
+  font-size: 3.8rem;
+  letter-spacing: 1px;
 }
 
 .basicExercises .exe {
-	display: block;
-	padding: 1rem 1.4rem;
-	margin-top: 0rem;
-	margin-bottom: 1rem;
-	text-decoration: none;
-	color: #000000;
+  display: block;
+  padding: 1rem 1.4rem;
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: #000000;
 }
 
 .basicExercises ul .Liexe {
-	list-style-type: circle;
-		color: #000000;
-    margin-left: 1rem;
-	margin-top: 0rem;
-
+  list-style-type: circle;
+  color: #000000;
+  margin-left: 1rem;
+  margin-top: 0rem;
 }
 
 .basicExercises a:hover {
-	color: #e6a225;
+  color: #e6a225;
 }
