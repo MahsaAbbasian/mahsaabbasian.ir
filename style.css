@@ -177,14 +177,32 @@
   background: #fff;
   padding-top: 10rem !important;
 }
+.basicExercises .row .header{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+    padding-top: 1rem;
+    margin-bottom: 5rem;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+.basicExercises .row .pBox{
+  background-color: #fff;
+  flex-direction: column;
+    margin-right: 1rem;
+    padding-top: 1rem;
+    margin-bottom: 5rem;
+    line-height: 2.5rem;
 
+}
 .basicLevel .row .text {
   max-width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   text-align: left;
-  padding: 2rem 1.2rem;
+  padding: 0rem;
   margin-left: 0;
 }
 
@@ -229,7 +247,7 @@
 }
 
 .miniProject {
-  background: #ffffff#fff;
+  background: #ffffff;
   padding-top: 0.1rem !important;
 }
 
@@ -475,10 +493,22 @@
 /************************************************************************************************/
 /******************************* styling the exercisses page ******************************************/
 /************************************************************************************************/
+
+.basicExercises header {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;;
+  font-weight: 900;
+  font-size: 1.5rem;
+  letter-spacing: 0.9px;
+}
 .basicExercises {
-  background: #fff;
+  /* background: #fff; */
+
   padding-top: 10rem !important;
   margin-bottom: 0rem;
+  margin-left: 2rem;
 }
 
 .basicExercises h2 {
